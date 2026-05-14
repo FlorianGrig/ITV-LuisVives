@@ -8,4 +8,5 @@ public interface IPropietarioRepository {
     List<Propietario> ListarTodo();
     void ActualizarPropietario(Propietario propietario);
     void BorrarPropietario(int id);
+    Propietario BuscarPorDni(string dni);
 }

@@ -8,4 +8,5 @@ public interface ICocheRepository {
     List<Coche> ListarTodo();
     void ActualizarCoche(Coche coche);
     void BorrarCoche(int id);
+    Coche BuscarPorMatricula(string matricula);
 }
