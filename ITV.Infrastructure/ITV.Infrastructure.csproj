@@ -6,4 +6,20 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Folder Include="ADO\" />
+      <Folder Include="Config\" />
+      <Folder Include="Dapper\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Dapper" Version="2.1.72" />
+      <PackageReference Include="Microsoft.Data.Sqlite" Version="10.0.8" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="10.0.8" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\ITV.Domain\ITV.Domain.csproj" />
+    </ItemGroup>
+
 </Project>
