@@ -70,9 +70,11 @@ public class CitaService
             _cocheRepository.CrearCoche(coche);
         }
 
-        var cita = new Cita {
+        var cita = new Cita
+        {
             FechaInspeccion = dto.FechaInspeccion,
-            CocheId = coche.Id
+            CocheId = coche.Id,
+            Coche = null
         };
         _citaRepository.CrearCita(cita);
     }

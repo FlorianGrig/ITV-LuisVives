@@ -8,8 +8,6 @@
 
     <ItemGroup>
       <Folder Include="ADO\" />
-      <Folder Include="Config\" />
-      <Folder Include="Dapper\" />
     </ItemGroup>
 
     <ItemGroup>
