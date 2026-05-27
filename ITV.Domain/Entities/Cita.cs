@@ -5,5 +5,5 @@ public class Cita {
     public DateTime FechaInspeccion { get; set; }
     public bool ResultadoInspeccion { get; set; }
     public int CocheId { get; set; }
-    public Coche Coche { get; set; }
+    public required Coche Coche { get; set; }
 }

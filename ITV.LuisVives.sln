@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITV.Application", "ITV.Appl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITV.Infrastructure", "ITV.Infrastructure\ITV.Infrastructure.csproj", "{016DDDA3-0811-4CA9-AB93-B1FE8E84EFED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITV.Tests", "ITV.Tests\ITV.Tests.csproj", "{C5C5A955-6CC1-4C1E-A140-3373FFF6BDEA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{016DDDA3-0811-4CA9-AB93-B1FE8E84EFED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{016DDDA3-0811-4CA9-AB93-B1FE8E84EFED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{016DDDA3-0811-4CA9-AB93-B1FE8E84EFED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5C5A955-6CC1-4C1E-A140-3373FFF6BDEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5C5A955-6CC1-4C1E-A140-3373FFF6BDEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5C5A955-6CC1-4C1E-A140-3373FFF6BDEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5C5A955-6CC1-4C1E-A140-3373FFF6BDEA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

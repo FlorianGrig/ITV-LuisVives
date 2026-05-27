@@ -1,7 +1,7 @@
 ﻿namespace ITV.Domain.Entities;
 
 public class Propietario {
-    public int Id { get; set; }
+    public Propietario Id { get; set; }
     public string Nombre { get; set; }
     public string Apellido { get; set; }
     public DateTime FechaNacimiento { get; set; }
